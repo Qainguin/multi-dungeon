@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://eanjhbl6ru7n"]
+
+[ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://joystick/virtual_joystick.tscn" id="1_38goy"]
+
+[node name="Player" type="Node2D"]
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Virtual Joystick" parent="HUD" instance=ExtResource("1_38goy")]
+offset_top = -300.0
+offset_bottom = 0.0
